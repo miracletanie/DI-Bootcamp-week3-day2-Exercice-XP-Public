@@ -1,0 +1,30 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20;
+}
+
+.alphabet {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: rgb(93, 233, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: move;
+}
+
+.alphabet.over {
+    border: 3px dotted rgb(242, 136, 136);
+}
